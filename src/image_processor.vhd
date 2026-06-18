@@ -6,7 +6,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity fixed_image_processor is
     generic (
         IMG_WIDTH   : integer := 4;    -- Small for testing
-        IMG_HEIGHT  : integer := 4;
+        IMG_HEIGHT  : integer := 4;    -- smth
         PIXEL_BITS  : integer := 8
     );
     port (
